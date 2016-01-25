@@ -29,7 +29,7 @@ Warning : You need a good server to run this application. The ping of many servi
 ####Cron :
 To install Cron app service, please **add the following line to your crontab** :
 
-`* * * * * cd /var/www/html/Monitoring-CLF/ping && php5 -f cron.php > logs.php 2>&1`
+    * * * * * cd /var/www/html/Monitoring-CLF/ping && php5 -f cron.php > logs.php 2>&1
 
 Don't forget de replace the folder of the application for this Cron.
 
