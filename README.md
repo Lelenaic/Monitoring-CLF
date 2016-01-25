@@ -14,11 +14,17 @@ You can add websites (over http or https) on whatever port you want. The applica
 
 Made with love by Flavien Chene (<http://flavienchene.fr/>), Clément Droillard and Lénaïc Grolleau (<https://www.lenaic.me>)
 
+####Requirements
+* Linux server
+* Postfix or other php mail services
+* Crontab access
+
 ###Install
 
 To install Monitoring-CLF, please set your username, host and password in the **includes/class_connexion.php** file for the database.
 Then, import the bdd.sql file into your database.
 The default username is **admin** and the default password is **coucou**.
+Warning : You need a good server to run this application. The ping of many services can slow down your server.
 
 ####Cron :
 To install Cron app service, please **add the following line to your crontab** :
