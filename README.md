@@ -32,3 +32,9 @@ To install Cron app service, please **add the following line to your crontab** :
 `* * * * * cd /var/www/html/Monitoring-CLF/ping && php5 -f cron.php > logs.php 2>&1`
 
 Don't forget de replace the folder of the application for this Cron.
+
+###To do list :
+* Add the **Free api** sms service (the current SMS service doesn't work).
+* Add a group managment.
+* Translate this app in english.
+* Add an easy install process
