@@ -3,9 +3,6 @@
 Hey ! Here we are, three french students who have done their first application using Admin LTE.
 The application is only available in french for the moment but it will be translated.
 
-Please note that your server need a mail service like postfix. The SMS function is not available for the moment.
-Your webserver need the point the HTML directory, not the main directory.
-
 
 ####What is Monitoring-CLF ?
 
@@ -24,6 +21,7 @@ Made with love by Flavien Chene (<http://flavienchene.fr/>), Clément Droillard 
 To install Monitoring-CLF, please set your username, host and password in the **includes/class_connexion.php** file for the database.
 Then, import the bdd.sql file into your database.
 The default username is **admin** and the default password is **coucou**.
+Finally, your webserver need to point to the **html** folder. Users musn't have an access to other directories.
 Warning : You need a good server to run this application. The ping of many services can slow down your server.
 
 ####Cron :
