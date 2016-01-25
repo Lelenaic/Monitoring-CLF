@@ -39,7 +39,7 @@ if (isset($_POST['connexion']) AND $_POST['connexion'] != 'Connexion'){
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Monitoring Tridemark | Connexion</title>
+    <title>Monitoring-CLF | Connexion</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.5 -->
@@ -63,7 +63,7 @@ if (isset($_POST['connexion']) AND $_POST['connexion'] != 'Connexion'){
   <body class="hold-transition login-page">
     <div class="login-box">
       <div class="login-logo">
-        <a href="?page=index"><b>Monitoring</b> Tridemark</a>
+        <a href="?page=index"><b>Monitoring</b> CLF</a>
       </div><!-- /.login-logo -->
       <div class="login-box-body">
         <p class="login-box-msg">Ouvrir une session</p>

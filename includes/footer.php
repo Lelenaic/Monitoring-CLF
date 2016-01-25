@@ -1,5 +1,4 @@
 <?php
-//<b>Version</b> 0.0.1 - Page générée en '.$fin-$debut.'secondes
 function footer(){
     $fin=microtime(true);
     echo '<footer class="main-footer">
