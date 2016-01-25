@@ -13,6 +13,8 @@ Made with love by Flavien Chene (<http://flavienchene.fr/>), Clément Droillard 
 
 ####Requirements
 * Linux server
+* Webserver supporting PHP, JS and HTML.
+* SQL server
 * Postfix or other php mail services
 * Crontab access
 
