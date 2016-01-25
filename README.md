@@ -38,3 +38,7 @@ Don't forget de replace the folder of the application for this Cron.
 * Add a group managment.
 * Translate this app in english.
 * Add an easy install process
+
+
+##How to update ?
+Replace all the files except the **includes/class_connexion.php** file.
