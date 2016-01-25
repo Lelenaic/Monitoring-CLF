@@ -67,19 +67,6 @@ if (isset($_POST['connexion']) AND $_POST['connexion'] != 'Connexion'){
       </div><!-- /.login-logo -->
       <div class="login-box-body">
         <p class="login-box-msg">Ouvrir une session</p>
-        <div class="alert alert-info" role="alert"><strong>Hey pssst !</strong> Voilà vos identifiants de test :<br><br>
-		Pseudo : <strong>adminsio</strong><br>
-		Mot de passe : <strong>pwsio</strong><br>
-                Groupe : <strong>Administrateurs</strong>
-                <hr/>
-                Pseudo : <strong>opsio</strong><br>
-		Mot de passe : <strong>pwsio</strong><br>
-                Groupe : <strong>Opérateurs</strong>
-                <hr/>
-                Pseudo : <strong>usersio</strong><br>
-		Mot de passe : <strong>pwsio</strong><br>
-                Groupe : <strong>Utilisateurs</strong>
-	</div>
         <form action="?page=login" method="post">
           <div class="form-group has-feedback">
             <input type="texte" class="form-control" placeholder="<?php echo $messagePseudo; ?>" name="pseudo">
