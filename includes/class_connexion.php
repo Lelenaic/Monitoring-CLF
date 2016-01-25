@@ -18,9 +18,9 @@ class Connexion {
     }
 
     private static function _get() {
-        $dsn = 'mysql:dbname=monitoring_v4;host=localhost';
-        $user = 'usersio';
-        $password = 'pwsio';
+        $dsn = 'mysql:dbname=DATABASE_NAME;host=HOST';
+        $user = 'USERNAME';
+        $password = 'PASSWORD';
 
         try {
             self::$_pdo = new PDO($dsn, $user, $password);
