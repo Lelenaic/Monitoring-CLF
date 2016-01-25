@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Monitoring Tridemark</title>
+    <title>Monitoring-CLF</title>
     <link rel="icon" type="image/png" href="../images/favicon.png" />
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
@@ -50,7 +50,7 @@
           <!-- mini logo for sidebar mini 50x50 pixels -->
           <span class="logo-mini"><b>M</b>T</span>
           <!-- logo for regular state and mobile devices -->
-          <span class="logo-lg" style="font-size:18px;"><b>Monitoring</b>Tridemark <span style="font-size:11px;">v.4</span></span>
+          <span class="logo-lg" style="font-size:18px;"><b>Monitoring</b> CLF <span style="font-size:11px;">v.1.0</span></span>
         </a>
         <!-- Header Navbar: style can be found in header.less -->
         <nav class="navbar navbar-static-top" role="navigation">

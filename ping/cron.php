@@ -9,7 +9,6 @@ foreach ($service as $ligne){
     $dernierTest=$date[0][0].' '.$heure[0][0];
     $difference=difference($dernierTest);
     if ($difference>=(($ligne[1])*60) or $difference==0) {
-        var_dump($ligne[1]);
         test($ligne[0]);
     }
 }

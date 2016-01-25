@@ -120,7 +120,7 @@ function validation($id,$date,$heure){
         Connexion::exec('update services set statut=1 where id=\''.$id.'\'');
         $id=Connexion::query('select id from tests where service_id=\''.$id.'\' and date=\''.$date.'\' and heure=\''.$heure.'\'');
         mails($id[0][0],'ok');
-        sms($id[0][0],'ok');
+        //sms($id[0][0],'ok');
     }
 }
 
@@ -131,7 +131,7 @@ function notif($id,$date,$heure){
     if ($service[0][0]==1) {
         var_dump($id[0][0]);
         mails($id[0][0]);
-        sms($id[0][0]);
+        //sms($id[0][0]);
     }
 }
 
