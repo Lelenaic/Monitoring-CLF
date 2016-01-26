@@ -12,7 +12,7 @@ You can add websites (over http or https) on whatever port you want. The applica
 Made with love by Flavien Chene (<http://flavienchene.fr/>), Clément Droillard and Lénaïc Grolleau (<https://www.lenaic.me>)
 
 ####Requirements
-* Linux server
+* Linux server with dedicated public IP (+ internet access)
 * Webserver supporting PHP, JS and HTML.
 * MySql server
 * Postfix or other php mail services
