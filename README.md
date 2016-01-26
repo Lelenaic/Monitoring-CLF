@@ -38,6 +38,7 @@ Don't forget de replace the folder of the application for this Cron.
 * Add a group managment.
 * Translate this app in english.
 * Add an easy install process
+* Correct the service bug when you add an URL (double http or https)
 
 
 ##How to update ?
