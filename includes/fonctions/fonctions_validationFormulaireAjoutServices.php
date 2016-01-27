@@ -4,8 +4,8 @@
 function validationFormulaireAjoutServices(){
     $idPseudo = $_POST['pseudo'];
     $nomService =$_POST['nomService'];
-    $url =$_POST['urlnew'];
     $port =$_POST['port'];
+    $url =verifHttp($_POST['urlnew'],$port);
     $texte =$_POST['texte'];
     $mail =$_POST['mail'];
     $tel =$_POST['tel'];
@@ -22,8 +22,8 @@ function validationFormulaireAjoutServices(){
 }
 
 function verifHttp($url,$port){
-    if (strpos($url,'http://')==false) {
-        if (strpos($url,'https://')==false) {
+    if (strpos($url,'http://')===false) {
+        if (strpos($url,'https://')===false) {
             if ($port=='80') {
                 $return='http://'.$url;
             }else{
