@@ -14,10 +14,10 @@ else
 //=====Déclaration des messages au format texte et au format HTML.
 if($erreur!=''){
     $message_txt = 'Bonjour, votre service '.$infoServices[0][0].' disponible à l\'adresse '.$infoServices[0][1].' ayant le port '.$infoServices[0][2].' est maintenant rétabli.';
-    $message_html = '<html><head></head><body><p style="text-align:center;font-size:30px;"><b>Monitoring</b> Tridemark</p>Bonjour, votre service '.$infoServices[0][0].' disponible à l\'adresse <a href="'.$infoServices[0][1].'">'.$infoServices[0][1].'</a> ayant le port '.$infoServices[0][2].' est maintenant rétabli.</body></html>';
+    $message_html = '<html><head></head><body><p style="text-align:center;font-size:30px;"><b>Monitoring</b> CLF</p>Bonjour, votre service '.$infoServices[0][0].' disponible à l\'adresse <a href="'.$infoServices[0][1].'">'.$infoServices[0][1].'</a> ayant le port '.$infoServices[0][2].' est maintenant rétabli.</body></html>';
 }else{
     $message_txt = 'Bonjour, une erreur est survenue sur votre service '.$infoServices[0][0].' disponible à l\'adresse '.$infoServices[0][1].' ayant le port '.$infoServices[0][2].'. Elle est survenue le '.dateUS2FR($infoServices[0][4]).' à '.$infoServices[0][5].'. Le temps de réponse (TRL) était de '.floor(($infoServices[0][6])*1000).' ms et le code HTTP était le '.$infoServices[0][7];
-    $message_html = '<html><head></head><body><p style="text-align:center;font-size:30px;"><b>Monitoring</b> Tridemark</p>Bonjour, une erreur est survenue sur votre service '.$infoServices[0][0].' disponible à l\'adresse <a href="'.$infoServices[0][1].'">'.$infoServices[0][1].'</a> ayant le port '.$infoServices[0][2].'. Elle est survenue le '.dateUS2FR($infoServices[0][4]).' à '.$infoServices[0][5].'. Le temps de réponse (TRL) était de '.floor(($infoServices[0][6])*1000).' ms et le code HTTP était le '.$infoServices[0][7].'</body></html>';
+    $message_html = '<html><head></head><body><p style="text-align:center;font-size:30px;"><b>Monitoring</b> CLF</p>Bonjour, une erreur est survenue sur votre service '.$infoServices[0][0].' disponible à l\'adresse <a href="'.$infoServices[0][1].'">'.$infoServices[0][1].'</a> ayant le port '.$infoServices[0][2].'. Elle est survenue le '.dateUS2FR($infoServices[0][4]).' à '.$infoServices[0][5].'. Le temps de réponse (TRL) était de '.floor(($infoServices[0][6])*1000).' ms et le code HTTP était le '.$infoServices[0][7].'</body></html>';
 }
 //==========
 
