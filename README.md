@@ -9,7 +9,7 @@ The application is only available in french for the moment but it will be transl
 It's a free monitoring application.
 You can add websites (over http or https) on whatever port you want. The application will get the link you gave its, search for a text, get the response time and the HTTP code. If one of the values isn't correct, the app send you a mail and a mobile message when it's offline and when it get back online.
 
-Made with love by Flavien Chene (<http://flavienchene.fr/>), Clément Droillard and Lénaïc Grolleau (<https://www.lenaic.me>)
+Made with love by Flavien Chene (<http://flavienchene.fr/>), Clément Droillard (<http://moncv.droillardclement.fr/>) and Lénaïc Grolleau (<https://www.lenaic.me>)
 
 ####Requirements
 * Linux server with dedicated public IP
