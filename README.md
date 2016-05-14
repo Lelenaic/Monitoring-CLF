@@ -43,3 +43,6 @@ Don't forget de replace the folder of the application for this Cron.
 
 ##How to update ?
 Replace all the files except the **includes/class_connexion.php** file.
+
+----
+AdminLTE theme from almsaeedstudio.com
