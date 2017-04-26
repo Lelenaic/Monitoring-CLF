@@ -1,6 +1,6 @@
 # Monitoring-CLF
 
-Hey ! Here we are, three french students who have done their first application using Admin LTE.
+Hey ! Here we are, three french students who have done their first php application using Admin LTE.
 The application is only available in french for the moment but it will be translated.
 
 
